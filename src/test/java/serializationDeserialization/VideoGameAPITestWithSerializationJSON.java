@@ -12,7 +12,7 @@ public class VideoGameAPITestWithSerializationJSON {
 // download https://github.com/james-willett/VideoGameDB
 // install gradle from https://gradle.org/install/#manually
 // cmd in the VideoGameDB dir: gradlew bootRun  , wait until it completes and leave cmd running
-
+// after VideoGame is running in cmd, paste in browser url http://localhost:8080/swager-ui/index.html, to see API requests for this webservice
 	@Test(priority=1)
 	public void testVideoGameSerializationJSON() {
 		VideoGame myVideoGame=new  VideoGame();
