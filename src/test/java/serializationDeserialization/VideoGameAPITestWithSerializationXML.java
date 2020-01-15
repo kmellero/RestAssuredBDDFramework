@@ -10,6 +10,9 @@ public class VideoGameAPITestWithSerializationXML {
 // download https://github.com/james-willett/VideoGameDB
 // install gradle from https://gradle.org/install/#manually
 // cmd in the VideoGameDB dir: gradlew bootRun  , wait until it completes and leave cmd running
+// after VideoGame is running in cmd, paste in browser url http://localhost:8080/swager-ui/index.html, to see API requests for this webservice
+//in swagger, click on List Operations, and see XML Request format, use Try in to verify Response
+
 	
 	
 	@Test(priority=1)
