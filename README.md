@@ -14,5 +14,5 @@ For Video Game tests:
 1) download https://github.com/james-willett/VideoGameDB
 2) install gradle from https://gradle.org/install/#manually
 3) cmd in the VideoGameDB dir: gradlew bootRun  , wait until it completes and leave cmd running
-3) while it is running in the cmd window, run tests e.g. via Selenium, first importing project into Eclipse/Selenium
+3) while it is running in the cmd window, run tests e.g. via Selenium, first importing project into e.g. Eclipse/Selenium
 
