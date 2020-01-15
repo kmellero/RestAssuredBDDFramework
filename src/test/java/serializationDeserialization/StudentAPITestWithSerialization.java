@@ -42,7 +42,7 @@ public class StudentAPITestWithSerialization {
 	@Test(priority=2)
 	void getStudentRecordDeserialization() {
 			
-		Student stu = get("http://localhost:8085/student/101").as(Student.class);
+		Student stu = get("http://localhost:8085/student/101").as(Student.class);  //send GET request, convert response into stu Student object
 		System.out.println(stu.getStudentRecord());
 		Assert.assertEquals(stu.getSID(), 101);
 	}
