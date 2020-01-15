@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4579" started-at="2020-01-13T18:36:54 CET" finished-at="2020-01-13T18:36:58 CET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4579" started-at="2020-01-13T18:36:54 CET" finished-at="2020-01-13T18:36:58 CET">
+      <class name="serializationDeserialization.StudentAPITestWithSerialization">
+        <test-method status="PASS" signature="createNewStudentSerialization()[pri:1, instance:serializationDeserialization.StudentAPITestWithSerialization@cd2dae5]" name="createNewStudentSerialization" duration-ms="4340" started-at="2020-01-13T18:36:54 CET" finished-at="2020-01-13T18:36:58 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewStudentSerialization -->
+        <test-method status="PASS" signature="getStudentRecordDeserialization()[pri:2, instance:serializationDeserialization.StudentAPITestWithSerialization@cd2dae5]" name="getStudentRecordDeserialization" duration-ms="160" started-at="2020-01-13T18:36:58 CET" finished-at="2020-01-13T18:36:58 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStudentRecordDeserialization -->
+      </class> <!-- serializationDeserialization.StudentAPITestWithSerialization -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
