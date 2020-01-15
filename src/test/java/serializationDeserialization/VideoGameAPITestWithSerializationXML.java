@@ -29,7 +29,9 @@ public class VideoGameAPITestWithSerializationXML {
 			.contentType("application/xml")
 			.body(myVideoGame)
 		.when()
-			.post("http://localhost:8080/app/videogames")
+			//get request url from swagger for POST, 
+			//e.g. change value of id in request example, "Try it" (send application/xml), get "Request URL", paste it below 
+			.post("http://localhost:8080/app/videogames")  
 		.then()
 			.log().all()
 			.body(equalTo("{\"status\": \"Record Added Successfully\"}"));
